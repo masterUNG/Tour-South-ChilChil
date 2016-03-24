@@ -2,7 +2,12 @@
     <string name="app_name">Tour South Chil Chil</string>
 
     <string name="signin">Sign In</string>
-    <string name="signup">Sign Up</string>
+    <string name="signup">สมัครสมาชิค</string>
+
+    <string name="name">ชื่อ</string>
+    <string name="email">E-mail</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
 
 
 </resources>

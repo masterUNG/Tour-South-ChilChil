@@ -28,7 +28,8 @@
             android:layout_height="wrap_content"
             android:text="@string/signup"
             android:id="@+id/button2"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="clickSignUpMain" />
     </LinearLayout>
 
     <LinearLayout
@@ -53,13 +54,17 @@
             android:layout_height="wrap_content"
             android:id="@+id/editText"
             android:hint="User :"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text" />
 
         <EditText
             android:layout_width="@dimen/edit"
             android:layout_height="wrap_content"
             android:id="@+id/editText2"
             android:hint="Password :"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text" />
     </LinearLayout>
 </RelativeLayout>

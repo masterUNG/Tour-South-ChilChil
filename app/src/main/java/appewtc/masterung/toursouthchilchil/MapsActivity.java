@@ -1,7 +1,7 @@
 package appewtc.masterung.toursouthchilchil;
 
-import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
@@ -20,6 +20,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private TextView tourTextView, provinceTextView, descripTextView;
     private ImageView imageView;
     private RatingBar ratingBar;
+    private String strTour, strProcivce;
+
 
 
     @Override
@@ -43,11 +45,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private void showView() {
 
-        String strTour = getIntent().getStringExtra("Tour");
+        strTour = getIntent().getStringExtra("Tour");
         tourTextView.setText(strTour);
 
         String strDistrict = getIntent().getStringExtra("District");
-        String strProcivce = getIntent().getStringExtra("Province");
+        strProcivce = getIntent().getStringExtra("Province");
         provinceTextView.setText(strDistrict + " : " + strProcivce);
 
         String strDescrip = getIntent().getStringExtra("Description");
@@ -74,10 +76,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        String strLat = getIntent().getStringExtra("Lat");
+        String strLng = getIntent().getStringExtra("Lng");
+
+        double douLat = Double.parseDouble(strLat);
+        double douLng = Double.parseDouble(strLng);
+
+        LatLng latLng = new LatLng(douLat, douLng);
+
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 16));
+        mMap.addMarker(new MarkerOptions().position(latLng));
+
     }   // onMap
 
 }   // Main Class

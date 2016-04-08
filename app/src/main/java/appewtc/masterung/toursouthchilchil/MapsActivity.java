@@ -12,6 +12,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.squareup.picasso.Picasso;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
@@ -51,6 +52,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         String strDescrip = getIntent().getStringExtra("Description");
         descripTextView.setText(strDescrip);
+
+        String strImage = getIntent().getStringExtra("Image");
+        Picasso.with(this).load(strImage).resize(200,200).into(imageView);
 
 
     }   // showView

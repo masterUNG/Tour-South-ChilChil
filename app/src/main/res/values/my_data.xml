@@ -5,19 +5,128 @@
 
         <item>กระบี่</item>
         <item>ชุมพร</item>
-        <item>pro3</item>
-        <item>pro4</item>
-        <item>pro5</item>
-        <item>pro6</item>
-        <item>pro7</item>
-        <item>pro8</item>
-        <item>pro9</item>
-        <item>pro10</item>
-        <item>pro11</item>
-        <item>pro12</item>
-        <item>pro13</item>
-        <item>pro14</item>
+        <item>ตรัง</item>
+        <item>นครศรีธรรมราช</item>
+        <item>นาราธิวาส</item>
+        <item>ปัตตานี</item>
+        <item>พังงา</item>
+        <item>พัทลุง</item>
+        <item>ภูเก็ต</item>
+        <item>ยะลา</item>
+        <item>ระนอง</item>
+        <item>สงขลา</item>
+        <item>สตูล</item>
+        <item>สุราษฎร์ธานี</item>
 
     </string-array>
+
+    <string-array name="district0">
+        <item>อำเภอเมืองกระบี่</item>
+        <item>อำเภอเกาะพีพี</item>
+        <item>อำเภอเกาะลันตา</item>
+        <item>อำเภอเขาพนม</item>
+        <item>อำเภอเหนือคลอง</item>
+        <item>อำเภอคลองท่อม</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="district1">
+        <item>อำเภอเมืองชุมพร</item>
+        <item>อำเภอท่าแซะ</item>
+        <item>อำเภอประทิว</item>
+        <item>อำเภอกระแสสินธุ์</item>
+        <item>อำเภอพะโต๊ะ</item>
+        <item>อำเภอละแม</item>
+        <item>อำเภอสวี</item>
+        <item>อำเภอหลังสวน</item>
+    </string-array>
+    <string-array name="district2">
+        <item>อำเภอเมืองตรัง</item>
+        <item>อำเภอกันตัง</item>
+        <item>อำเภอนาโยง</item>
+        <item>อำเภอปะเหลียน</item>
+        <item>อำเภอสิเกา</item>
+        <item>อำเภอห้วยยอด</item>
+    </string-array>
+    <string-array name="district3">
+
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+
+    </string-array>
+    <string-array name="district4">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+    </string-array>
+    <string-array name="district5">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+    </string-array>
+    <string-array name="district6">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+    </string-array>
+    <string-array name="district7">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+    </string-array>
+    <string-array name="district8">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+    </string-array>
+    <string-array name="district9">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+    </string-array>
+    <string-array name="district10">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+    </string-array>
+    <string-array name="district11">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+    </string-array>
+    <string-array name="district12">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+    </string-array>
+    <string-array name="district13">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+        <item>test5</item>
+    </string-array>
+
 
 </resources>

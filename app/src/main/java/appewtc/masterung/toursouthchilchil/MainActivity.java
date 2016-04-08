@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "ยินดีต้อนรับ " + resultStrings[3],
                         Toast.LENGTH_SHORT).show();
 
+                startActivity(new Intent(MainActivity.this, ProvinceActivity.class));
+                finish();
             } else {
 
                 MyAlertDialog myAlertDialog = new MyAlertDialog();

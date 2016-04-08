@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="province">
+
+        <item>กระบี่</item>
+        <item>ชุมพร</item>
+        <item>pro3</item>
+        <item>pro4</item>
+        <item>pro5</item>
+        <item>pro6</item>
+        <item>pro7</item>
+        <item>pro8</item>
+        <item>pro9</item>
+        <item>pro10</item>
+        <item>pro11</item>
+        <item>pro12</item>
+        <item>pro13</item>
+        <item>pro14</item>
+
+    </string-array>
+
+</resources>
